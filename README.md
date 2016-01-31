@@ -1,6 +1,6 @@
 # Auth0 - Change User Email Webtask
 
-The Auth0 Management API only allows changing a user's email address from your backend (using an API token). This webtask is a proxy for the management API that allows users to change their passwords from the client side (by using a valid "user token" issued by Auth0).
+The Auth0 Management API only you to change a user's email address from your backend (using an API token). This Webtask is a proxy for the Auth0 Management API that allows users to change their passwords from the client side (by using a valid "user token" issued by Auth0).
 
 ## Deployment
 
@@ -33,5 +33,7 @@ Content-Type: application/json
     "connection": "Username-Password-Authentication"
 }
 ```
+
+A verification email will be sent to this new email address.
 
 > Tip: To quickly get a token you can use the [Resource Owner endpoint](https://auth0.com/docs/auth-api#!#post--oauth-ro).
