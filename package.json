@@ -1,0 +1,15 @@
+{
+  "name": "auth0-public-email-change-webtask",
+  "version": "1.0.0",
+  "description": "Webtask that allows end users to change the email address of their Auth0 accounts",
+  "main": "task.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "auth0",
+    "webtask"
+  ],
+  "author": "Sandrino Di Mattia",
+  "license": "MIT"
+}
